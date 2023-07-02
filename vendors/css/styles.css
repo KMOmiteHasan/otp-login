@@ -101,6 +101,15 @@ button::-moz-focus-inner,
   color: var(--p-text-subdued, #637381);
 }
 
+.Polaris-TextStyle--variationPositive a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Polaris-TextStyle--variationPositive a:hover {
+  text-decoration: underline;
+}
+
 
 .Polaris-Heading {
   font-size: 1.7rem;
